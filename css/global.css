@@ -1,0 +1,64 @@
+
+body {
+    background: #fff;
+    font-family: "Roboto", "Arial", sans-serif;
+    color: #505f98;
+}
+p{
+color:  #4B5D68;
+}
+
+li{
+    
+    color: #212353;
+}
+a{
+    text-decoration: none;
+    color: #4B5D68;
+}
+
+li{
+    display: block;
+}
+
+button{
+    border: 0;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #212353;
+}
+
+h1 {
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 110%;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 130%;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 130%;
+}
+/* Global*/
+
+.default_button{
+    background: #9C69E2;
+    color:#fff;
+    border-radius: 50px;
+    width: 170px;
+    height: 60px;
+    padding: 16px, 37px;
+
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 1120px;
+}
