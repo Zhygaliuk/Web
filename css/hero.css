@@ -1,0 +1,30 @@
+.hero{
+    background: url(../image/hero.svg) no-repeat right  top 180%;
+   
+    
+}
+.hero__inner{
+padding-top: 147px;
+
+}
+.hero__tittle{
+    
+width: 645px;
+font-weight: bold;
+font-size: 80px;
+line-height: 110%;
+display: flex;
+align-items: center;
+color: #212353;
+}
+.hero__paragraph{
+width: 380px;
+height: 120px;
+size :18px;
+font-weight: 500;
+font-size: 18px;
+line-height: 160%;
+
+color: #4B5D68;
+
+}
