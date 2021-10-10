@@ -4,6 +4,17 @@ body {
     font-family: "Roboto", "Arial", sans-serif;
     color: #505f98;
 }
+@media screen and (max-width: 768px) {
+    body {
+    text-align: center;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    :root {
+    font-size: 12px;
+    }
+}
 p{
 color:  #4B5D68;
 }
@@ -24,28 +35,34 @@ li{
 button{
     border: 0;
 }
-h1,h2,h3,h4,h5,h6 {
-    font-family: Arial, Helvetica, sans-serif;
-    color: #212353;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+font-family: Arial, Helvetica, sans-serif;
+color: #212353;
 }
 
 h1 {
-    font-size: 80px;
-    font-weight: 700;
-    line-height: 110%;
+font-size: 5rem;
+font-weight: 700;
+line-height: 110%;
 }
 
 h2 {
-    font-size: 40px;
-    font-weight: 700;
-    line-height: 130%;
+font-size: 2.5rem;
+font-weight: 700;
+line-height: 130%;
 }
 
 h3 {
-    font-size: 24px;
-    font-weight: 400;
-    line-height: 130%;
+font-size: 1.5rem;
+font-weight: 400;
+line-height: 130%;
 }
+
 /* Global*/
 
 .default_button{
@@ -60,5 +77,20 @@ h3 {
 
 .container{
     margin: 0 auto;
-    max-width: 1120px;
+    max-width: 1100px;
+}
+
+@media screen and (max-width: 1024px) {
+    .container {
+    padding: 0 40px;
+    }
+}
+/*** variables ***/
+:root {
+    --color-dark: #111b47;
+    --color-font-dark: #091133;
+
+    --font-size-md: 1rem;
+    --font-size-sm: 0.875rem;
+    --font-size-xs: 0.75rem;
 }

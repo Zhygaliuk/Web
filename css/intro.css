@@ -24,3 +24,11 @@ height: 170px;
 size: 18px;
 
 }
+@media screen and (max-width: 768px) {
+    .intro {
+      justify-content: center;
+        }
+    .intro__image{
+        display: none;
+    }
+        }

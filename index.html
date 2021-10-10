@@ -12,17 +12,20 @@
     <section class="hero">
       <div class="container">
         <header class="header">
+          <div class="header__menu" onclick="toggleMenu()">
+            <img src="image/menu__image.svg" alt="Menu">
+          </div>
           <img src="image/logo.svg" alt="Logo" />
-          <nav class="header__nav">
+          <nav id="nav-links" class="header__nav">
             <ul>
-              <li class="header__nav-item">About</li>
+              <li class="header__nav-item"><a href="">About</a></li>
               <li class="header__nav-item"><a href="">Help</a></li>
               <li class="header__nav-item"><a href="">Feauters</a></li>
               <li class="header__nav-item"><a href="">Signup</a></li>
             </ul>
           </nav>
           <div class="shape"></div>
-          <button class="header__request-now">
+          <button class="header__request-demo">
             Request Now <img src="image/image button.svg" />
           </button>
         </header>
@@ -37,6 +40,8 @@
           </p>
           <div>
             <button class="default_button">Learn more</button>
+            <!--  "" -->
+          </div>
           </div>
         </div>
       </div>
